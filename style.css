@@ -1,0 +1,102 @@
+.titulo {
+    color: #d93d1a;
+    font-weight: bold;
+  }
+  
+  .ingredientes {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .Modo {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .informações {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+   
+  .criado {
+    color: #d93d1a;
+    font-weight: bold;
+    font-size: 25px;
+    grid-gap: 2ch;
+  }
+
+  .nome {
+    color: #d93d1a;
+    font-weight: arial;
+    font-size: 25px;
+    grid-gap: 2ch;
+  }
+
+  .publicar {
+    color: #d93d1a;
+    font-family: arial;
+    font-size: 25px;
+    font-family: 700;
+    border: none;
+    padding: 0.3cm;
+    cursor: pointer;
+    border-radius: 1.5em;
+    grid-gap: 4ch;
+ 
+  }
+
+  .publicar-red{
+      background:#d93d1a;
+      color: #fff;
+      box-shadow:0 5px 0 #ac3317 ;
+  }
+
+  .publicar-red:hover{
+    background:#ac3317;
+    color: #fff;
+    box-shadow:0 5px 0 #9b2e15 ;
+}
+
+.publicar-red:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none ;
+}
+
+
+*{
+    margin: 6px;
+    padding: 6px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1.5ch;
+    text-align: center;
+    
+}
+
+#Receita{
+    background-color:#FFF;
+}
+
+#ingredientes{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+
+}
+
+#modo{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+}
+
+#InformaçõesdaReceita{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+}
