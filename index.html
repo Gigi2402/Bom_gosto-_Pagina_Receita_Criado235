@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bom Gosto</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <style>
+
+        h5{
+
+            text-align: center;
+
+        }
+
+        h6{
+            text-align: center;
+        }
+
+        
+      
+    </style>
+
+        <body>
+            <div class="container"> 
+             <div id="Receita">
+                    <h1>
+             
+                        <input type="text" placeholder=" Insira o seu Título"></input>
+            
+                    </h1>
+                </div>
+        
+        
+    
+
+                <div id="ingredientes"> 
+                    <h2 class="ingredientes">
+                        Ingredientes
+    
+                        <form>
+        
+                            <input type="text" placeholder=" Insira o seus Ingredientes"></input>
+            
+                        </form>
+                    </h2>
+        
+
+                     <form>
+                        Insira sua imagem
+                        <input class="d-none" id="send-recipe-images" multiple="multiple" name="recipe[images][]" type="file" />
+
+                    </form>
+                </div> 
+
+                <div id="modo">
+                    <h3 class="Modo">
+                     Modo de Preparo
+                    </h3>
+                    <form>
+                        <input type="text" placeholder=" Insira o seu Modo de Preparo"></input>
+                    </form>
+                </div> 
+
+                <div id="InformaçõesdaReceita">
+                    <h4 class="informações">
+                        Informações
+                    </h4>
+    
+                    <form>
+        
+                        <input type="text" placeholder=" Insira o suas Informações"></input>
+                    </form>
+                </div> 
+            </div>     
+
+
+
+            <h5 class="criado">
+                Criado por:
+                <form>
+            
+                    Insira sua foto
+                    <input class="d-none" id="send-recipe-images" multiple="multiple" name="recipe[images][]" type="file" />
+                    <h6 class="nome">
+                     Insira seu nome
+                    </h6>
+                    <input type="text" placeholder=" Insira o seu Nome" ></input>
+                </form>
+            
+            </h5>
+
+        
+            <button class="publicar publicar-red">Publicar</button>
+        
+            
+                
+        
+
+        </body> 
+</html>
