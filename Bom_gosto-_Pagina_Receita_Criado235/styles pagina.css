@@ -1,0 +1,137 @@
+.titulo {
+    color: #d93d1a;
+    font-weight: bold;
+  }
+  
+  .ingredientes {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .ingredientes2 {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .imagem{
+      text-align: right;
+      margin-top: auto;
+  }
+
+  .Modo {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .mododepreparo {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .informações {
+    color: #f2a30f;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .obs{
+
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+  }
+  
+   
+  .criado {
+    color: #d93d1a;
+    font-weight: bold;
+    font-size: 25px;
+    grid-gap: 2ch;
+    text-align: center;
+  }
+
+  .nome {
+    color: #d93d1a;
+    font-weight: arial;
+    font-size: 25px;
+    grid-gap: 2ch;
+    text-align: center;
+  }
+
+  .criar {
+    color: #d93d1a;
+    font-family: arial;
+    font-size: 25px;
+    font-family: 700;
+    border: none;
+    padding: 0.3cm;
+    cursor: pointer;
+    border-radius: 1.5em;
+    grid-gap: 4ch;
+    text-align: right;
+ 
+  }
+
+  .criar-red{
+      background:#d93d1a;
+      color: #fff;
+      box-shadow:0 5px 0 #ac3317 ;
+  }
+
+  .criar-red:hover{
+    background:#ac3317;
+    color: #fff;
+    box-shadow:0 5px 0 #9b2e15 ;
+}
+
+.criar:active{
+    position: relative;
+    top: 5px;
+    box-shadow:none ;
+}
+
+.img{
+    border-radius: 100px;
+}
+
+
+*{
+    margin: 6px;
+    padding: 6px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1.5ch;
+    text-align: center;
+    
+}
+
+#Receita{
+    background-color:#FFF;
+}
+
+#ingredientes{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+
+}
+
+#modo{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+}
+
+#InformaçõesdaReceita{
+    background-color:#F2F2F2;
+    border-radius: 1em;
+}
